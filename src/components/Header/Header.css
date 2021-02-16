@@ -1,0 +1,50 @@
+.navbar{
+    background-color: #529ccd;
+    margin: 10px 30px;
+    opacity: 0.7;
+}
+
+.btn-sign-in{
+    text-transform: uppercase;
+    margin: 5px 10px;
+    background-color: #fdb000;
+}
+
+.btn-sign-in:hover{
+    background-color: #f8e700;
+    cursor: pointer;
+}
+
+.logo-text{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #ffffff;
+    margin: auto 0;
+}
+
+
+.icon-group{
+    display: none;
+}
+
+.icon-group i{
+    color: #fdb000;
+    cursor: pointer;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.icon-group i:hover{
+    color: #f8e700;
+}
+
+@media (max-width: 600px) {
+    .button-group {
+        display: none;
+    }
+    .icon-group{
+        display: inline-block;
+    }
+}

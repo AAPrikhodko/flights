@@ -1,0 +1,43 @@
+.flight-wrapper {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.row-flight-header {
+    color: white;
+    background-color: #529ccd;
+    border: 1px solid #529ccd;
+}
+
+.col-date-duration {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.line {
+    margin-top: 14px;
+    border-top: 1px solid black;
+    height: 100%;
+}
+
+.text-transfer {
+    color: red;
+}
+
+.col-carrier {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .col-date-duration {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .line {
+     display: none;
+    }
+}

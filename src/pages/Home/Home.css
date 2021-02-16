@@ -1,0 +1,25 @@
+.container-home-page{
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.row-content-homepage{
+    position: relative;
+    min-height: 950px;
+}
+
+.wrapper-sort{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    visibility: hidden;
+    max-width: 33%;
+    padding: 1rem 0;
+}
+.col-sort{
+    position: sticky;
+    top: 20px;
+    visibility: visible;
+}
+

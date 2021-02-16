@@ -1,0 +1,10 @@
+.btn-choose{
+    background-color: #fdb000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-choose:hover{
+    background-color: #e7cb59;
+}
+
