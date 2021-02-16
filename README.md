@@ -1,3 +1,9 @@
+Some comments about the App: 
+- Here you can find the [Flights App](https://flights-airlines.netlify.app)
+- Sorting by the duration (means summary of both ways there and back)
+- Filter by transfers (it calculates both ways there and back)
+- Sign In, Download buttons are just for demonstration
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
